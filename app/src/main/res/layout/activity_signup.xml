@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginTop="20dp"
+
+    tools:context=".signup">
+
+    <TextView
+        android:text="Username"
+        android:textColor="#FB4F4F"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF2B2B"
+        android:hint="John wilber"
+        android:textColor="#F9F3F3"
+        android:textStyle="bold"
+        android:textColorHint="#F9CFCF"
+        android:layout_marginBottom="40dp"/>
+
+
+
+    <TextView
+        android:text="Password"
+        android:textColor="#FB4F4F"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF2B2B"
+        android:hint="password"
+        android:textColor="#F9F3F3"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:textColorHint="#F9CFCF"
+        android:layout_marginBottom="40dp"/>
+    <TextView
+        android:text="Email Id"
+        android:textColor="#FB4F4F"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF2B2B"
+        android:hint="abc@gmail.com"
+        android:textColor="#F9F3F3"
+        android:textStyle="bold"
+        android:textColorHint="#F9CFCF"
+        android:layout_marginBottom="50dp"/>
+
+
+    <TextView
+    android:text="Address"
+    android:textColor="#FB4F4F"
+    android:textStyle="bold|italic"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF2B2B"
+        android:hint="House no.,Locality,City,State,Country"
+        android:textColor="#F9F3F3"
+        android:textStyle="bold"
+        android:textColorHint="#F9CFCF"
+        android:layout_marginBottom="50dp"/>
+    <TextView
+        android:text="Mobile No."
+        android:textColor="#FB4F4F"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+
+    <EditText
+        android:id="@+id/etMobile"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF2B2B"
+        android:hint="9812345678"
+        android:textColor="#F9F3F3"
+        android:textStyle="bold"
+        android:textColorHint="#F9CFCF"
+        android:layout_marginBottom="40dp"/>
+   <Button
+       android:id="@+id/btnRegister"
+       android:text="REGISTER"
+       android:textColor="#F9F3F3"
+       android:background="@color/colorPrimaryDark"
+       android:layout_gravity="center_horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+</LinearLayout>

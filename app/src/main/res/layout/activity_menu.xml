@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".medicalfac.menu">
+
+    <Button
+        android:id="@+id/btnhospitals"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:background="#FFC300 "
+        android:text="find hospitals near me"
+        android:textColor="#DAF7A6" />
+
+    <Button
+        android:id="@+id/btnlabs"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="#FF5733  "
+        android:text="find diagnostic labs near me"
+        android:textColor="#DAF7A6" />
+
+    <Button
+        android:background="#C70039  "
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:textColor="#FFFFFF"
+        android:text="PHARMACIES NEAR ME" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colourfuldark"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="281dp"
+        android:layout_height="133dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/redcross" />
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp"
+
+        android:background="#11000000"
+        android:drawableLeft="@drawable/baseline_perm_identity_black_18dp"
+        android:ems="20"
+        android:hint="Username"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="248dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/baseline_lock_black_18dp"
+        android:ems="20"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/btnSign"
+        android:layout_width="101dp"
+        android:layout_height="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/actmag"
+        android:text="REGISTER HERE"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/btnLog"
+        android:layout_width="115dp"
+
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+
+
+        app:cardBackgroundColor="#000000"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="#FFFFFF" />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

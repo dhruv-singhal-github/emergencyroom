@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="title_activity_signup">signup</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_medicalfaci">medicalfaci</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

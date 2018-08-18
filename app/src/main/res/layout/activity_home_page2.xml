@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+
+    >
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+
+        android:paddingBottom="30dp"
+
+        android:paddingTop="30dp">
+
+        <LinearLayout
+            android:id="@+id/btnspecial"
+            android:background="#FDFBD1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="159dp"
+                android:layout_height="122dp"
+
+
+                android:src="@drawable/doctor" />
+
+            <TextView
+                android:id="@+id/doctor"
+                android:gravity="center"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:fontFamily="casual"
+                android:text="SPECIALISTS"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#D6C0FD"
+            android:id="@+id/btnambu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="EMERGENCY ROOM"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:src="@drawable/callambulancematerial" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#D0FDC0"
+            android:id="@+id/btnhosp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:src="@drawable/hospital" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:gravity="center"
+
+                android:text="MEDICAL FACILITIES"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#FFD3D3"
+            android:id="@+id/btnmedicine"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="PHARMACY"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="143dp"
+                android:layout_height="127dp"
+                android:layout_gravity="right"
+
+                android:src="@drawable/syringe" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

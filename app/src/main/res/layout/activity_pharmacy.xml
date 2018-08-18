@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    tools:context=".medicine.pharmacy">
+    <LinearLayout
+        android:paddingTop="5dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <ImageView
+        android:id="@+id/mg"
+        android:src="@drawable/mg"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/netmeds"
+        android:src="@drawable/netmeds"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/pharmeasy"
+            android:src="@drawable/pharmeas"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/medlife"
+            android:src="@drawable/medlife"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/practo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:src="@drawable/practo" />
+        <ImageView
+            android:id="@+id/aermed"
+            android:src="@drawable/aermed"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
